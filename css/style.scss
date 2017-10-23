@@ -1,5 +1,5 @@
 body {
-  background-image: url('../images/home_hero.jpg');
+  background-image: url('../images/home_hero2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -29,7 +29,16 @@ nav {
       color:white;
       display: flex;
       justify-content: space-around;
+      flex-wrap: wrap;
       margin: 5%;
     }
   }
+}
+
+.date {
+  font-family: 'brandon-grotesque' 'sans-serif';
+  font-size: 32px;
+  font-weight: 100;
+  color:white;
+  text-align: center;
 }
