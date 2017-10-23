@@ -1,0 +1,27 @@
+body {
+  background-image: url("../images/home_hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid white; }
+  nav .nav-left {
+    width: 50%; }
+    nav .nav-left .logo {
+      width: 50%;
+      margin: 3%; }
+  nav .nav-right {
+    width: 50%; }
+    nav .nav-right .menu {
+      list-style: none;
+      font-family: 'brandon-grotesque' 'sans-serif';
+      font-style: normal;
+      font-weight: 300;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      margin: 5%; }
+
+/*# sourceMappingURL=style.css.map */
