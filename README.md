@@ -1,3 +1,2 @@
 
-# KandPsite
-# KandP_wedding
+#Katie and Peter's Wedding Site
