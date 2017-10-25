@@ -80,6 +80,7 @@ nav {
   .date {
     font-size: 2em;
     margin-top: 20%;
-    font-weight: 200; } }
+    font-weight: 200;
+    padding-bottom: 75%; } }
 
 /*# sourceMappingURL=style.css.map */
