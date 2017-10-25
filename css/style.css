@@ -27,7 +27,7 @@ a:hover {
       list-style: none;
       font-family: 'Raleway';
       font-style: normal;
-      font-weight: 100;
+      font-weight: 300;
       color: white;
       display: flex;
       justify-content: flex-end;
@@ -61,7 +61,7 @@ a:hover {
       list-style: none;
       font-family: 'Raleway';
       font-style: normal;
-      font-weight: 100;
+      font-weight: 300;
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -95,13 +95,16 @@ a:hover {
 .date {
   font-family: 'Raleway';
   font-size: 4em;
-  font-weight: 100;
+  font-weight: 200;
   color: white;
   text-align: center;
   margin-top: 10%;
   padding-bottom: 35%; }
 
 @media (max-width: 900px) {
+  .scroll-nav {
+    visibility: hidden; }
+
   .hero {
     background-size: 200%;
     background-position: top center; }
@@ -121,6 +124,6 @@ a:hover {
     font-weight: 200;
     padding-bottom: 75%; } }
 .test {
-  height: 100px; }
+  height: 1000px; }
 
 /*# sourceMappingURL=style.css.map */
