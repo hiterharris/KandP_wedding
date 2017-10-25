@@ -1,7 +1,9 @@
-body {
-  background-image: url('../images/home_hero2.jpg');
+.hero {
+  background-image: url('../images/home_hero3.png');
   background-repeat: no-repeat;
   background-size: 100%;
+  height: 800px;
+  overflow:hidden;
 }
 a {
   text-decoration: none;
@@ -21,7 +23,6 @@ nav {
     align-items: center;
     .logo {
       width: 75%;
-      // margin: 10%;
     }
   }
   .nav-right {
@@ -50,8 +51,8 @@ nav {
   display:none;
   justify-content: flex-start;
   img {
-    width: 40%;
-    height: 100%;
+    width: 50%;
+    height: 80%;
   }
 }
 .menu-icon {
@@ -59,13 +60,13 @@ nav {
   justify-content: flex-end;
   img {
     width: 40%;
-    height: 100%;
+    height: 80%;
   }
 }
 
 .date {
   font-family: 'Raleway';
-  font-size: 2em;
+  font-size: 4em;
   font-weight: 100;
   color:white;
   text-align: center;
@@ -73,7 +74,7 @@ nav {
 
 @media (max-width:900px) {
   body {
-    background-size: 150%;
+    background-size: 120%;
   }
   nav {
     display:none;
@@ -86,6 +87,6 @@ nav {
   }
   .date {
     font-size: 1.5em;
-    margin-top: 15%;
+    margin-top: 10%;
   }
 }
