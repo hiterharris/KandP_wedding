@@ -26,7 +26,6 @@ a:hover {
   }
   .nav-right {
     width: 75%;
-    align-items: center;
     .menu {
       list-style: none;
       font-family: 'Raleway';
@@ -91,13 +90,13 @@ a:hover {
   display: flex;
   margin: 3%;
 }
-
 .logo-2 {
   display:none;
   justify-content: flex-start;
   img {
-    width: 50%;
-    height: 35%;
+    width: 75%;
+    height: 50%;
+    margin: 2%;
   }
 }
 .nav-right-2 {
