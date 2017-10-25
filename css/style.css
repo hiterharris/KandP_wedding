@@ -69,6 +69,9 @@ nav {
     display: flex; }
 
   .logo-2 {
-    display: flex; } }
+    display: flex; }
+
+  .date {
+    font-size: 1em; } }
 
 /*# sourceMappingURL=style.css.map */
