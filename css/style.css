@@ -1,125 +1,56 @@
-.hero {
-  background-image: url("../images/home_hero3.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  overflow: hidden; }
+/*
+Error: Invalid CSS after "    width: 50%": expected "{", was ";"
+        on line 100 of css/style.scss
 
-a:hover {
-  text-decoration: underline; }
+95: .logo-2 {
+96:   display:none;
+97:   justify-content: flex-start;
+98:   img {
+99: <<<<<<< HEAD
+100:     width: 50%;
+101:     height: 35%;
+102: =======
+103:     width: 75%;
+104:     height: 50%;
+105:     margin: 2%;
 
-.main-nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  border-bottom: 1px solid white; }
-  .main-nav .nav-left {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .main-nav .nav-left .logo {
-      width: 75%;
-      padding-left: 25px; }
-  .main-nav .nav-right {
-    width: 75%;
-    align-items: center; }
-    .main-nav .nav-right .menu {
-      list-style: none;
-      font-family: 'Raleway';
-      font-style: normal;
-      font-weight: 100;
-      color: white;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      flex-wrap: wrap; }
-      .main-nav .nav-right .menu a {
-        margin: 2%;
-        text-decoration: none;
-        color: white; }
-      .main-nav .nav-right .menu a:hover {
-        text-decoration: underline; }
-
-.scroll-nav {
-  background-color: white;
-  display: none;
-  display: flex;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  justify-content: space-around; }
-  .scroll-nav .nav-left {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    .scroll-nav .nav-left .logo {
-      width: 75%; }
-  .scroll-nav .nav-right {
-    width: 75%; }
-    .scroll-nav .nav-right .menu {
-      list-style: none;
-      font-family: 'Raleway';
-      font-style: normal;
-      font-weight: 100;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      flex-wrap: wrap; }
-      .scroll-nav .nav-right .menu a {
-        margin: 2%;
-        text-decoration: none;
-        color: black; }
-      .scroll-nav .nav-right .menu a:hover {
-        text-decoration: underline; }
-
-.nav-left-2 {
-  display: flex;
-  margin: 3%; }
-
-.logo-2 {
-  display: none;
-  justify-content: flex-start; }
-  .logo-2 img {
-    width: 50%;
-    height: 35%; }
-
-.nav-right-2 {
-  display: none;
-  justify-content: flex-end; }
-  .nav-right-2 img {
-    width: 40%;
-    height: 80%; }
-
-.date {
-  font-family: 'Raleway';
-  font-size: 4em;
-  font-weight: 100;
-  color: white;
-  text-align: center;
-  margin-top: 10%;
-  padding-bottom: 35%; }
-
-@media (max-width: 900px) {
-  .hero {
-    background-size: 200%;
-    background-position: top center; }
-
-  .main-nav {
-    display: none; }
-
-  .nav-right-2 {
-    display: flex; }
-
-  .logo-2 {
-    display: flex; }
-
-  .date {
-    font-size: 2em;
-    margin-top: 20%;
-    font-weight: 200;
-    padding-bottom: 75%; } }
-.test {
-  height: 100px; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+css/style.scss:100
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:674:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    width: 50%\": expected \"{\", was \";\"\A         on line 100 of css/style.scss\A \A 95: .logo-2 {\A 96:   display:none;\A 97:   justify-content: flex-start;\A 98:   img {\A 99: <<<<<<< HEAD\A 100:     width: 50%;\A 101:     height: 35%;\A 102: =======\A 103:     width: 75%;\A 104:     height: 50%;\A 105:     margin: 2%;"; }
