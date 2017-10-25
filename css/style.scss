@@ -4,14 +4,13 @@
   background-size: 100%;
   overflow:hidden;
 }
-a {
-  text-decoration: none;
-  color: white;
-}
+
 a:hover {
   text-decoration: underline;
 }
-nav {
+.main-nav {
+  // position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid white;
@@ -22,6 +21,7 @@ nav {
     align-items: center;
     .logo {
       width: 75%;
+      padding-left: 25px;
     }
   }
   .nav-right {
@@ -38,11 +38,55 @@ nav {
       flex-wrap: wrap;
       a {
         margin:2%;
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        text-decoration: underline;
       }
     }
   }
 }
-.nav-2 {
+.scroll-nav {
+  background-color: white;
+  display: none;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  justify-content: space-around;
+  .nav-left {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo {
+      width: 75%;
+    }
+  }
+  .nav-right {
+    width: 75%;
+    .menu {
+      list-style: none;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 100;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-wrap: wrap;
+      a {
+        margin:2%;
+        text-decoration: none;
+        color: black;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.nav-left-2 {
   display: flex;
   margin: 3%;
 }
@@ -51,10 +95,10 @@ nav {
   justify-content: flex-start;
   img {
     width: 50%;
-    height: 80%;
+    height: 90%;
   }
 }
-.menu-icon {
+.nav-right-2 {
   display:none;
   justify-content: flex-end;
   img {
@@ -69,6 +113,7 @@ nav {
   font-weight: 100;
   color:white;
   text-align: center;
+  margin-top: 10%;
   padding-bottom: 35%;
 }
 
@@ -77,10 +122,10 @@ nav {
     background-size: 200%;
     background-position: top center;
   }
-  nav {
+  .main-nav {
     display:none;
   }
-  .menu-icon {
+  .nav-right-2 {
     display:flex;
   }
   .logo-2 {
@@ -92,4 +137,8 @@ nav {
     font-weight: 200;
     padding-bottom: 75%;
   }
+}
+
+.test {
+  height: 100px;
 }
