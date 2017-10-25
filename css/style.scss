@@ -2,7 +2,6 @@
   background-image: url('../images/home_hero3.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 800px;
   overflow:hidden;
 }
 a {
@@ -70,6 +69,7 @@ nav {
   font-weight: 100;
   color:white;
   text-align: center;
+  padding-bottom: 35%;
 }
 
 @media (max-width:900px) {
@@ -88,7 +88,7 @@ nav {
   }
   .date {
     font-size: 2em;
-    margin-top: 15%;
+    margin-top: 20%;
     font-weight: 200;
   }
 }
