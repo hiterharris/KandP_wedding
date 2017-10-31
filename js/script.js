@@ -8,3 +8,10 @@ $(document).ready(function(){
         }
       });
   });
+
+  $(document).ready(function() {
+    $(".menu-2").hide()
+    $(".hamburger").click(function(){
+      $(".menu-2").toggle()
+    })
+  });

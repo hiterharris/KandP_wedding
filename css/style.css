@@ -99,6 +99,21 @@ a:hover {
 .info-img {
   width: 50%; }
 
+.menu-2 {
+  position: fixed;
+  background: none;
+  list-style: none;
+  padding-right: 10px;
+  top: 40px;
+  right: 0;
+  text-align: right; }
+  .menu-2 a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 200; }
+
 @media (max-width: 900px) {
   .scroll-nav {
     visibility: hidden; }
