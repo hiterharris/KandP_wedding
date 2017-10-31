@@ -2,7 +2,8 @@
   background-image: url("../images/home_hero3.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 40%; }
 
 a:hover {
   text-decoration: underline; }
@@ -92,14 +93,11 @@ a:hover {
     width: 40%;
     height: 80%; }
 
-.date {
-  font-family: 'Raleway';
-  font-size: 4em;
-  font-weight: 200;
-  color: white;
-  text-align: center;
-  margin-top: 10%;
-  padding-bottom: 35%; }
+.info {
+  text-align: center; }
+
+.info-img {
+  width: 50%; }
 
 @media (max-width: 900px) {
   .scroll-nav {
@@ -107,7 +105,7 @@ a:hover {
 
   .hero {
     background-size: 200%;
-    background-position: top center; }
+    background-position: center; }
 
   .main-nav {
     display: none; }
@@ -123,7 +121,5 @@ a:hover {
     margin-top: 20%;
     font-weight: 200;
     padding-bottom: 75%; } }
-.test {
-  height: 1000px; }
 
 /*# sourceMappingURL=style.css.map */

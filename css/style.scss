@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   overflow:hidden;
+  padding-bottom: 40%;
 }
 
 a:hover {
@@ -10,6 +11,7 @@ a:hover {
 }
 .main-nav {
   // position: fixed;
+
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -111,15 +113,13 @@ a:hover {
   }
 }
 
-.date {
-  font-family: 'Raleway';
-  font-size: 4em;
-  font-weight: 200;
-  color:white;
+.info {
   text-align: center;
-  margin-top: 10%;
-  padding-bottom: 35%;
 }
+
+.info-img {
+    width: 50%;
+  }
 
 @media (max-width:900px) {
   .scroll-nav {
@@ -127,7 +127,7 @@ a:hover {
   }
   .hero {
     background-size: 200%;
-    background-position: top center;
+    background-position: center;
   }
   .main-nav {
     display:none;
@@ -144,8 +144,4 @@ a:hover {
     font-weight: 200;
     padding-bottom: 75%;
   }
-}
-
-.test {
-  height: 1000px;
 }
