@@ -116,6 +116,9 @@ a:hover {
     font-size: 12px;
     font-weight: 400; }
 
+.corner {
+  width: 25%; }
+
 @media (max-width: 900px) {
   .scroll-nav {
     visibility: hidden; }
