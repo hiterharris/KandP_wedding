@@ -242,6 +242,12 @@ a:hover {
     width: 40%;
     height: 80%; }
 
+.info {
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 200;
+  font-size: 54px; }
+
 .info-img {
   width: 50%; }
 
@@ -261,9 +267,6 @@ a:hover {
     font-family: 'Raleway';
     font-size: 12px;
     font-weight: 400; }
-
-.corner {
-  width: 25%; }
 
 @media (max-width: 900px) {
   .scroll-nav {
@@ -386,7 +389,19 @@ a:hover {
     height: 80%; }
 
 .info {
-  text-align: center; }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+  line-height: 2; }
+  .info .hotel-link {
+    font-size: 32px; }
+  .info .booking {
+    width: 80%;
+    font-size: 32px;
+    font-weight: 300; }
+  .info img {
+    margin-top: 5%; }
 
 .info-img {
   width: 50%; }
@@ -407,9 +422,6 @@ a:hover {
     font-family: 'Raleway';
     font-size: 12px;
     font-weight: 400; }
-
-.corner {
-  width: 25%; }
 
 @media (max-width: 900px) {
   .scroll-nav {
@@ -678,7 +690,10 @@ a:hover {
     height: 80%; }
 
 .info {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 200;
+  font-size: 54px; }
 
 .info-img {
   width: 50%; }
@@ -824,7 +839,10 @@ a:hover {
     height: 80%; }
 
 .info {
-  text-align: center; }
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 200;
+  font-size: 54px; }
 
 .info-img {
   width: 50%; }
@@ -874,10 +892,5 @@ a:hover {
 
   .info-img {
     width: 100%; } }
-.info {
-  text-align: center;
-  font-family: 'Raleway';
-  font-weight: 200;
-  font-size: 54px; }
 
 /*# sourceMappingURL=style.css.map */
